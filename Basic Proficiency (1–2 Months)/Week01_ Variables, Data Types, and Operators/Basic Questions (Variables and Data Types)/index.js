@@ -7,17 +7,16 @@
 //  Declare a variable city and assign the name of your city to it. Print the value.
 
 
-let Name = "Sahaatha Hasni";
-let Age = 26;
-let isStudent = true;
-let price = 19.99;
-let city = "Oluvil";
+    //  this is Using an Array (Destructuring)
+    let [Name , Age , isStudent , price , city] = 
+    ["Sahaatha Hasni" , 26 , true , 9.99 , "Oluvil" ];
 
-console.log(Name,"\n",
-     Age,"\n",
-     isStudent,"\n",
-     price,"\n",
-     city);
+    console.log(Name,"\n",
+        Age,"\n",
+        isStudent,"\n",
+        price,"\n",
+        city);
+
 
 
 
